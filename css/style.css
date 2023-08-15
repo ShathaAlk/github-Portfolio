@@ -1076,14 +1076,18 @@ a.svg:after {
     }
 
     .long-line {
-        width: 250px;
+        width: 200px;
         margin-top: 50px;
     }
     
     .work-svg {
         height: 225px;
-        float:right !important;
+        float:right;
     }
+    .mobile-app{
+            transform: translateX(-10%); 
+    }
+  
 
     .sub-page .main-btn {
         width: 100px;
@@ -1113,6 +1117,13 @@ a.svg:after {
 }
 
 }
+
+@media only screen and (max-width: 375px) {
+   .mobile-app{
+            transform: translateX(-5%); 
+    } 
+}
+
 
 
 @media only screen and (max-width: 320px) {
@@ -1181,5 +1192,8 @@ a.svg:after {
     
     .work-svg {
         height: 190px;
+    }
+    .mobile-app{
+            transform: translateX(-5%); 
     }
 }
