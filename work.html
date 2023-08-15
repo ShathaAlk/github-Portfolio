@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
 
@@ -24,22 +24,28 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/bootstrap.css" rel="stylesheet" />
+
+<style> 
+</style>
     
 </head>
 <header>
-    <span class="sidenav-icon" style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776; </span>
 </header>
 
 <body class="sub-page">
+    <span class="sidenav-icon" style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span>
+
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.html" class="menu-item">الرئيسية</a>
-        <a href="about.html" class="menu-item">عني</a>
-        <a href="work.html" class="menu-item">أعمالي</a>
-        <a href="index.html#contact" class="menu-item">للتواصل</a>
+        <a href="/index.html" class="menu-item">الرئيسية</a>
+        <a href="/about.html" class="menu-item">عني</a>
+        <a href="/work.html" class="menu-item">أعمالي</a>
+        <a href="/index.html#contact" class="menu-item">للتواصل</a>
     </div>
 
-    <section class="sub-section page-section text-white bg-black position-relative" id="about">
+
+   
+    <section class="sub-section page-section text-white position-relative bg-black"  id="work">
         <div class="container px-4 px-lg-5" style="height: 400px">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-6 right-side">
@@ -59,12 +65,24 @@
                             <div class="big-ellipse"></div>
 
                             <div class="main-text">My Work</div>
+
                         </div>
 
 
                         <div class="middle-frame">
                             <div class="mid-ellipse"></div>
+                            <!--<div class="sub-text ar ar-width">
+                                شغوفة جدًا بالأكواد البرمجية، أسعى لبناء العديد من المواقع والتطبيقات القوية والمبتكرة
+                            </div>-->
+
+
                         </div>
+
+                       <!-- <div class="btn-place">
+
+                            <a href="/about.html"><button class="main-btn ar text-white"> عــــــــــرض</button></a>
+
+                        </div>-->
                     </div>
 
                     <div class="big-line"></div>
@@ -78,11 +96,11 @@
 
     </section>
 
-    <section class="sub-section m-sm-5" style="">
-        <div dir="rtl" class="row ps-lg-5">
-            <div class="row col-12 col-lg-6 col-md-6 col-sm-6 mt-sm-5 mb-3 mt-5">
-
-
+    
+    <section class="sub-section mt-sm-5" >
+        <div dir="rtl" class="row ps-lg-5 " style=" width: 100%">
+            <div class="row col-12 col-lg-6 col-md-6 col-sm-6 mt-sm-5 mb-3 mt-5" style="justify-content: flex-end !important">
+               
                 <div class="col-lg-12 col-md-12 col-sm-12 col-12 ar-big px-4 ms-lg-3 ms-2">
 
                     <div class="row text-end p-lg-1 pb-4">
@@ -101,8 +119,8 @@
 
                     </div>
                     <div class="row text-end">
-                        <div class="col-lg-4 col-7 text-center">
-                            <a class="svg" href="https://github.com/ShathaAlk/Little-Challenges-Application">
+                        <div class="col-lg-4 col-7  text-center">
+                            <a class="svg mt-2" href="https://github.com/ShathaAlk/Little-Challenges-Application">
                             <object data="assets/img/icon/svg/github-fill.svg" type="image/svg+xml" >
                                 <img src="assets/img/icon/github-fill.png" />
                             </object></a>
@@ -111,43 +129,41 @@
 
                 </div>
             </div>
-
-            <div class="col-12 col-lg-6 col-md-6 col-sm-6">
+             <div class="col-12 col-lg-6 col-md-6 col-sm-6">
                 <object class="work-svg" data="assets/img/little challenges.svg" type="image/svg+xml">
                 </object>
 
             </div>
         </div>
     </section>
+        <div class="long-line"></div>
 
-    <div class="long-line"></div>
-
-    <section class="sub-section m-sm-5" style="justify-content: center !important">
-        <div dir="rtl" class="row ps-lg-5 ">
-            <div class="row col-12 col-lg-6 col-md-6 col-sm-6 mt-sm-5 mb-3 mt-5">
-
-                <div class="col-lg-12 col-md-12 col-sm-12 col-21 ar-big px-4 ms-lg-3 ms-2">
+    <section class="sub-section mt-sm-3 " >
+        <div dir="rtl" class="row ps-lg-5 " style=" width: 100%">
+            <div class="row col-12 col-lg-6 col-md-6 col-sm-6 mt-sm-5 mb-3" style="justify-content: flex-end !important">
+               
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12 ar-big px-4 ms-lg-3 ms-2">
 
                     <div class="row text-end p-lg-1 pb-4">
                         <h2 class="pb-3 text-center">Aroma</h2>
 
                     </div>
+
                     <div class="row text-end p-lg-3 pb-4">
                         <div class="ar pb-3 fw-semibold">- الوصف:</div>
-                        <div class="ar text-gray">موقع إلكتروني تفاعلي لبيع الحواسب المحمولة، يسمح للمسؤول بالتحكم في المنتجات التي تتيح للعملاء شراءها.</div>
+                       <div class="ar text-gray">موقع إلكتروني تفاعلي لبيع الحواسب المحمولة، يسمح للمسؤول بالتحكم في المنتجات التي تتيح للعملاء شراءها.</div>
                     </div>
 
+               
                     <div class="row text-end p-lg-3">
                         <div class="col-4 ar fw-semibold">- اللغات:</div>
                         <div class="col sub-text text-gray position-relative">C#, JavaScript, HTML, CSS, SQL</div>
 
                     </div>
-                    <div class="row">
+                    <div class="row mt-2">
 
                         <div class="col">
-                            <a href="https://aromalaptopshop.azurewebsites.net/">
                             <button class="main-btn ar text-white"> عــــــــــرض</button>
-                                </a>
                         </div>
                         <div class="col ms-5 mt-3 text-end">
                             <a class="svg" href="https://github.com/ShathaAlk/MVC-E-commerce-Laptops-System">
@@ -159,20 +175,20 @@
 
                 </div>
             </div>
-
-            <div class="col-12 col-lg-6 col-md-6 col-sm-6">
-                <object class="work-svg" data="assets/img/Aroma.svg" type="image/svg+xml">
+             <div class="col-12 col-lg-6 col-md-6 col-sm-6">
+               <object class="work-svg" data="assets/img/Aroma.svg" type="image/svg+xml">
                 </object>
 
             </div>
         </div>
     </section>
-    <div class="long-line"></div>
-    <section class="sub-section m-sm-5" style="justify-content: center !important">
-        <div dir="rtl" class="row ps-lg-5">
-            <div class="row col-12 col-lg-6 col-md-6 col-sm-6 mt-sm-5 mb-3 mt-5">
-
+        <div class="long-line"></div>
+     <section class="sub-section mt-sm-3 " >
+        <div dir="rtl" class="row ps-lg-5 " style=" width: 100%">
+            <div class="row col-12 col-lg-6 col-md-6 col-sm-6 mt-sm-5 mb-3" style="justify-content: flex-end !important">
+               
                 <div class="col-lg-12 col-md-12 col-sm-12 col-12 ar-big px-4 ms-lg-3 ms-2">
+
                     <div class="row text-end p-lg-1 pb-4">
                         <h2 class="pb-3 text-center">Joe's Pizza</h2>
 
@@ -182,17 +198,17 @@
                         <div class="ar pb-3 fw-semibold">- الوصف:</div>
                         <div class="ar text-gray">تطبيق ويب تفاعلي يحاكي نظام الطلب إلكترونيًا لمطعم بيتزا،</div>
                     </div>
-
-                    <div class="row text-end p-lg-3">
+  <div class="row text-end p-lg-3">
                         <div class="col-4 ar fw-semibold">- اللغات:</div>
                         <div class="col-8 sub-text text-gray position-relative">C#, JavaScript, HTML, CSS, SQL</div>
 
                     </div>
-                    <div class="row ">
+                    <div class="row mt-2">
                         <div class="col">
-                            <a href="https://joespizzashop.azurewebsites.net/">
+                           <a  href="https://joespizzashop.azurewebsites.net/">
+
                             <button class="main-btn ar text-white"> عــــــــــرض</button>
-                                </a>
+                            </a>
                         </div>
                         <div class="col ms-5 mt-3 text-end">
                             <a class="svg" href="https://github.com/ShathaAlk/Joes_Pizza_System">
@@ -204,15 +220,17 @@
 
                 </div>
             </div>
-
-            <div class="col-12 col-lg-6 col-md-6 col-sm-6">
-                <object class="work-svg" data="assets/img/joes pizza.svg" type="image/svg+xml">
+             <div class="col-12 col-lg-6 col-md-6 col-sm-6">
+               <object class="work-svg" data="assets/img/joes pizza.svg" type="image/svg+xml">
                 </object>
+
             </div>
         </div>
     </section>
+        <div class="long-line"></div>
+    
 
-    <div class="long-line pb-5"></div>
+
 
     <script>
         function openNav() {
