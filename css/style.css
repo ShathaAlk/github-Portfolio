@@ -328,7 +328,7 @@ a {
 }
 
 .sidenav-icon {
-    color: white;
+    color: #fca311;
     position: fixed;
     right: 10px;
     z-index: 10;
@@ -350,7 +350,7 @@ a {
 }
 
 .item-section {
-    width: 270px;
+    width: 250px;
     height: 94px;
 }
    a.svg {
@@ -384,6 +384,7 @@ a.svg:after {
 .item-text {
     color: #646363;
     font: 300 24px "Antonio", sans-serif;
+    margin-top: -1.5px !important;
 }
 
 .logos-javascript {
@@ -1061,11 +1062,13 @@ a.svg:after {
     .num {
         font-size: 50px !important;
     }
+     .ar-width {
+        width: 300px;
+    }
 
     .sub-page {
-        overflow-x: hidden;
-        overflow-y: scroll !important;
-
+        /*overflow-x: hidden;
+        overflow-y: scroll !important;*/
     }
 
     .sub-page .item-line {
@@ -1076,11 +1079,38 @@ a.svg:after {
         width: 250px;
         margin-top: 50px;
     }
+    
+    .work-svg {
+        height: 225px;
+        float:right !important;
+    }
 
     .sub-page .main-btn {
         width: 100px;
         height: 40px;
     }
+    
+    
+.sub-page .square {
+    width: 250px;
+    height: 218px; 
+    padding: 15px 15px;
+}
+
+.sub-page .no-square-border {
+    width: 250px;
+    position: relative;
+    margin: 0px 5px;
+    padding: 15px 0px 20px 0px;
+}
+    .item-text {
+        margin-left: 100px;
+}
+
+    .line {
+    margin-right: 65px;
+        width: 80px
+}
 
 }
 
@@ -1147,5 +1177,9 @@ a.svg:after {
 
     .ar {
         font-size: 14px;
+    }
+    
+    .work-svg {
+        height: 190px;
     }
 }
